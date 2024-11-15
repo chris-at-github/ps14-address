@@ -1,0 +1,194 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<main>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:sheet.record</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.records>
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:record</label>
+							<config>
+								<type>group</type>
+								<internal_type>db</internal_type>
+								<allowed>tt_address</allowed>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<wizards>
+									<suggest>
+										<type>suggest</type>
+									</suggest>
+								</wizards>
+							</config>
+						</TCEforms>
+					</settings.records>
+				</el>
+			</ROOT>
+		</main>
+		<display>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:sheet.display</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.display.name type="array">
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:display.name</label>
+							<displayCond>
+								<OR>
+									<numIndex index="1">FIELD:parentRec.tx_foundation_variant:=:default</numIndex>
+									<numIndex index="2">FIELD:parentRec.tx_foundation_variant:=:imprint</numIndex>
+								</OR>
+							</displayCond>
+							<config>
+								<type>check</type>
+								<default>1</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.enabled</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.display.name>
+					<settings.display.description type="array">
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:display.description</label>
+							<displayCond>
+								<OR>
+									<numIndex index="1">FIELD:parentRec.tx_foundation_variant:=:default</numIndex>
+									<numIndex index="2">FIELD:parentRec.tx_foundation_variant:=:imprint</numIndex>
+								</OR>
+							</displayCond>
+							<config>
+								<type>check</type>
+								<default>1</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.enabled</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.display.description>
+					<settings.display.location type="array">
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:display.location</label>
+							<displayCond>
+								<OR>
+									<numIndex index="1">FIELD:parentRec.tx_foundation_variant:=:default</numIndex>
+									<numIndex index="2">FIELD:parentRec.tx_foundation_variant:=:imprint</numIndex>
+								</OR>
+							</displayCond>
+							<config>
+								<type>check</type>
+								<default>1</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.enabled</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.display.location>
+					<settings.display.contact type="array">
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:display.contact</label>
+							<displayCond>
+								<OR>
+									<numIndex index="1">FIELD:parentRec.tx_foundation_variant:=:default</numIndex>
+									<numIndex index="2">FIELD:parentRec.tx_foundation_variant:=:imprint</numIndex>
+								</OR>
+							</displayCond>
+							<config>
+								<type>check</type>
+								<default>1</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.enabled</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.display.contact>
+					<settings.display.openingHours type="array">
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:display.openingHours</label>
+							<displayCond>
+								<OR>
+									<numIndex index="1">FIELD:parentRec.tx_foundation_variant:=:default</numIndex>
+									<numIndex index="2">FIELD:parentRec.tx_foundation_variant:=:imprint</numIndex>
+								</OR>
+							</displayCond>
+							<config>
+								<type>check</type>
+								<default>1</default>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.enabled</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.display.openingHours>
+				</el>
+			</ROOT>
+		</display>
+		<seo>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:sheet.seo</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<settings.structuredDataType>
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:structured-datatype</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0" />
+										<numIndex index="1" />
+									</numIndex>
+								</items>
+								<itemsProcFunc>Ps14\Foundation\Service\TcaService->getItemsBySettingsIdentifier</itemsProcFunc>
+								<itemsProcConfig>
+									<extension>Ps14Address</extension>
+									<identifier>structuredDataTypes</identifier>
+								</itemsProcConfig>
+							</config>
+						</TCEforms>
+					</settings.structuredDataType>
+					<settings.structuredDataOpeningHoursCategory>
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:structured-data.opening-hours-category</label>
+							<config>
+								<type>select</type>
+								<renderType>selectSingle</renderType>
+								<itemsProcFunc>Ps14\Foundation\Service\TcaService->getCategoriesByIdentifier</itemsProcFunc>
+								<itemsProcConfig>
+									<identifier>opening-hours-type</identifier>
+								</itemsProcConfig>
+								<items type="array">
+									<numIndex index="1" type="array">
+										<numIndex index="0"></numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</settings.structuredDataOpeningHoursCategory>
+				</el>
+			</ROOT>
+		</seo>
+	</sheets>
+</T3DataStructure>
