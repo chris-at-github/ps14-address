@@ -1,0 +1,51 @@
+tt_content {
+	list {
+		dataProcessing {
+			100 {
+				frameTypeClass.replacement.10 {
+					search = ce-addressrecord
+					replace = ce-address
+				}
+			}
+
+			200 = Ps14\Foundation\DataProcessing\PluginProcessor
+			200 {
+				ps14address_record {
+					importCss {
+						10 = /assets/css/modules/address.css
+					}
+				}
+			}
+		}
+	}
+}
+
+plugin.tx_ps14address {
+	view {
+		layoutRootPaths {
+			10 = EXT:ps14_foundation/Resources/Private/Layouts/Content/
+			20 = EXT:ps14_address/Resources/Private/Layouts/
+			30 = EXT:ps14_site/Resources/Private/Extensions/Address/Layouts/
+		}
+
+		templateRootPaths {
+			10 = EXT:ps14_address/Resources/Private/Templates/
+			20 = EXT:ps14_site/Resources/Private/Extensions/Address/Templates/
+		}
+
+		partialRootPaths {
+			10 = EXT:ps14_address/Resources/Private/Partials/
+			20 = EXT:ps14_site/Resources/Private/Extensions/Address/Partials/
+			30 = EXT:ps14_foundation/Resources/Private/Partials/
+			40 = EXT:ps14_site/Resources/Private/Partials/
+		}
+	}
+
+	settings {
+		structuredDataTypes {
+			localBusiness = LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:structured-datatype.local-business
+		}
+	}
+}
+
+module.tx_ps14address.settings < plugin.tx_ps14address.settings

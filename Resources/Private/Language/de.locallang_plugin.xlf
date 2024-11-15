@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2024-11-15T23:00:00Z" product-name="ps14_address" target-language="de">
+		<header/>
+		<body>
+			<trans-unit id="record.title">
+				<target>Adresse</target>
+			</trans-unit>
+			<trans-unit id="record.description">
+				<target>Zeigt eine Adresse mit unterschiedlichen Ansichten und Optionen an</target>
+			</trans-unit>
+			<trans-unit id="sheet.record">
+				<target>Auswahl</target>
+			</trans-unit>
+			<trans-unit id="sheet.seo">
+				<target>Seo</target>
+			</trans-unit>
+			<trans-unit id="sheet.display">
+				<target>Anzeige</target>
+			</trans-unit>
+			<trans-unit id="record">
+				<target>Datensatz</target>
+			</trans-unit>
+			<trans-unit id="structured-datatype">
+				<target>Typ Strukturierte Daten</target>
+			</trans-unit>
+			<trans-unit id="structured-datatype.local-business">
+				<target>Local Business</target>
+			</trans-unit>
+			<trans-unit id="structured-data.opening-hours-category">
+				<target>Hauptkategorie Öffnungszeiten</target>
+			</trans-unit>
+
+			<trans-unit id="variant.map">
+				<target>Karte</target>
+			</trans-unit>
+			<trans-unit id="variant.contact">
+				<target>Kontaktdaten</target>
+			</trans-unit>
+			<trans-unit id="variant.imprint">
+				<target>Impressum</target>
+			</trans-unit>
+
+			<trans-unit id="display.name">
+				<target>Name anzeigen</target>
+			</trans-unit>
+			<trans-unit id="display.location">
+				<target>Postanschrift anzeigen</target>
+			</trans-unit>
+			<trans-unit id="display.contact">
+				<target>Kontaktdaten anzeigen</target>
+			</trans-unit>
+			<trans-unit id="display.opening-hours">
+				<target>Öffnungszeiten anzeigen</target>
+			</trans-unit>
+			<trans-unit id="display.description">
+				<target>Beschreibung anzeigen</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
