@@ -56,6 +56,9 @@
 			<trans-unit id="display.description">
 				<source>Display description</source>
 			</trans-unit>
+			<trans-unit id="display.image">
+				<source>Display image</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

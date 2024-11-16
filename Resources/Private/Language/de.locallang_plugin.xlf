@@ -56,6 +56,9 @@
 			<trans-unit id="display.description">
 				<target>Beschreibung anzeigen</target>
 			</trans-unit>
+			<trans-unit id="display.image">
+				<target>Bild anzeigen</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

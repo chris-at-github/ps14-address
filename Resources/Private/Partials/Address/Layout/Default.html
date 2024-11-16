@@ -27,6 +27,10 @@
 			<f:render partial="Components/Address" section="AdditionalDescription" arguments="{_all}" />
 		</f:if>
 
+		<f:if condition="{settings.display.image} == 1">
+			<f:render partial="Components/Address" section="Image" arguments="{_all}" />
+		</f:if>
+
 		<f:if condition="{settings.structuredDataType} == 'localBusiness'">
 			<fo:jsonLd.localBusiness address="{address}" openingHoursCategory="{settings.structuredDataOpeningHoursCategory}" />
 		</f:if>
