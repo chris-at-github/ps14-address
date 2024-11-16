@@ -22,7 +22,7 @@
 				<target>Folgen Sie uns auf</target>
 			</trans-unit>
 			<trans-unit id="google-maps-link">
-				<target>Display on Google Maps</target>
+				<target>Auf Google Maps anzeigen</target>
 			</trans-unit>
 		</body>
 	</file>
