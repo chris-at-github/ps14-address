@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2024-11-16T23:00:00Z" product-name="ps14_address">
+		<header/>
+		<body>
+			<trans-unit id="directors">
+				<source>Geschäftsführung</source>
+			</trans-unit>
+			<trans-unit id="vatnumber">
+				<source>USt.-IDNr.</source>
+			</trans-unit>
+			<trans-unit id="commercialregister">
+				<source>Handelsregister</source>
+			</trans-unit>
+			<trans-unit id="registeredoffice">
+				<source>Sitz der Gesellschaft</source>
+			</trans-unit>
+			<trans-unit id="openinghours">
+				<source>Opening hours</source>
+			</trans-unit>
+			<trans-unit id="social">
+				<source>Follow us</source>
+			</trans-unit>
+			<trans-unit id="google-maps-link">
+				<source>Display on Google Maps</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
