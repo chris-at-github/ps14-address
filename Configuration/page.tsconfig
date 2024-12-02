@@ -15,3 +15,15 @@ mod.wizards.newContentElement.wizardItems {
 		show := addToList(ps14address_record)
 	}
 }
+
+[field('list_type') === 'ps14address_record']
+	TCEFORM.tt_content {
+		tx_foundation_variant {
+			addItems {
+				map = LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:variant.map
+				contact = LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:variant.contact
+				imprint = LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:variant.imprint
+			}
+		}
+	}
+[END]
