@@ -8,7 +8,6 @@ tt_content {
 				}
 			}
 
-			200 = Ps14\Foundation\DataProcessing\PluginProcessor
 			200 {
 				ps14address_record {
 					importCss {
