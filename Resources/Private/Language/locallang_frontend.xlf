@@ -24,6 +24,9 @@
 			<trans-unit id="google-maps-link">
 				<source>Display on Google Maps</source>
 			</trans-unit>
+			<trans-unit id="imprint-link">
+				<source>Imprint</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

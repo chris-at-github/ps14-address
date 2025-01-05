@@ -24,6 +24,9 @@
 			<trans-unit id="google-maps-link">
 				<target>Auf Google Maps anzeigen</target>
 			</trans-unit>
+			<trans-unit id="imprint-link">
+				<target>Impressum</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>

@@ -158,6 +158,19 @@
 							</config>
 						</TCEforms>
 					</settings.display.image>
+					<settings.display.imprintTarget type="array">
+						<TCEforms>
+							<label>LLL:EXT:ps14_address/Resources/Private/Language/locallang_plugin.xlf:display.imprint-target</label>
+							<displayCond>
+								<OR>
+									<numIndex index="1">FIELD:parentRec.tx_foundation_variant:=:imprint</numIndex>
+								</OR>
+							</displayCond>
+							<config>
+								<type>link</type>
+							</config>
+						</TCEforms>
+					</settings.display.imprintTarget>
 				</el>
 			</ROOT>
 		</display>

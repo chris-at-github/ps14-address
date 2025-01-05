@@ -59,6 +59,9 @@
 			<trans-unit id="display.image">
 				<target>Bild anzeigen</target>
 			</trans-unit>
+			<trans-unit id="display.imprint-target">
+				<target>Verlinkung zum Impressum angezeigen</target>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
